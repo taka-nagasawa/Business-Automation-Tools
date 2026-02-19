@@ -1,5 +1,5 @@
 @echo off
-setlocal enabledelayedexpansion
+
 
 set OLD_DIR=old
 powershell -Command "((Get-Date).AddDays(-1)).ToString('yyyyMMdd')" > temp_date.txt
